@@ -1,0 +1,286 @@
+/*GLOBAL STYLE*/
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    margin: 0;
+}
+
+
+/*GLOBAL STYLE*/
+/*START OF HEADER SECTION */
+.header {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh
+}
+
+.header .content {
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.header .content h1 {
+    font-size: 76px;
+    /*TOP RIGHT BOTTOM LEFT*/
+    margin: 10px 0;
+}
+
+.header .content p {
+    /*(021)*/
+    font-size: 22px;
+}
+
+.header .content p.p-special {
+    font-size: 24px;
+    line-height: 1.8;
+}
+
+.header .content button.btn-learn {
+    background-color: #8e7754;
+    color: white;
+    /*       TOP  RIGHT BOTTOM LEFT*/
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.header .content button.btn-contact {
+    color: white;
+    background-color: transparent;
+    padding: 20px 30px;
+    border: solid 2px white;
+    border-radius: 5px;
+}
+
+.header .nav .container .nav-logo img {
+    width: 160px;
+}
+
+.header .nav .container .nav-logo {
+    float: left;
+    padding-top: 10px;
+}
+
+.header .nav .container .nav-links {
+    float: right;
+}
+
+.header .nav .container .nav-links ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.header .nav .container .nav-links ul li {
+    float: left;
+    padding: 20px;
+}
+
+.header .nav .container .nav-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/*END   OF HEADER SECTION */
+
+/*START OF ABOUT SECTION */
+.about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about .container .about-img {
+    display: inline-block;
+    width: 49%;
+    padding-right: 25px;
+}
+
+.about .container .about-img img {
+    width: 100%;
+}
+
+.about .container .about-content {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    padding-left: 25px;
+}
+
+.about .container .about-content h2 {
+    font-size: 32px;
+}
+
+.about .container .about-content p {
+    line-height: 1.8;
+    font-size: 17px;
+    color: #686868;
+}
+
+.about .container .about-content ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.about .container .about-content ul li {
+    margin-bottom: 20px;
+}
+
+.about .container .about-content ul li img {
+    width: 50px;
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+
+.about .container .about-content ul li span {
+    vertical-align: middle;
+}
+
+/*EBD   OF ABOUT SECTION*/
+
+/*START OF OUR OFFER*/
+.our-offer {
+    padding: 50px 0;
+    background-color: #F8F8F8;
+}
+
+.our-offer .container .our-offer-text {
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 20px;
+}
+
+.our-offer .container .our-offer-img {
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 20px;
+}
+
+.our-offer .container .our-offer-img img {
+    width: 100%;
+}
+
+/*END   OF OUR OFFER*/
+/*START OF OUR BAKING*/
+.our-baking {
+    padding: 50px 0;
+}
+
+.our-baking .container .our-baking-header {
+    text-align: center;
+}
+
+
+.our-baking .container .items .item {
+    width: 33.333333%;
+    float: left;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.our-baking .container .items .item .inner {
+    background-color: #8e7754;
+}
+
+
+.our-baking .container .items .item img {
+    width: 100%;
+}
+
+/*END   OF OUR BAKING*/
+/*START OF CONTACT*/
+.contact {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.contact .container .contact-text {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+}
+
+.contact .container .contact-map {
+    float: right;
+    width: 50%;
+    padding: 0 10px;
+}
+
+.contact .container .contact-map iframe {
+    width: 100%;
+    height: 600px;
+}
+
+/*END   OF CONTACT*/
+
+/*START OF FOOTER */
+.footer {
+    padding: 50px 0;
+    background-color: #403d38;
+}
+
+.footer .container .footer-upper .item h4 {
+    color: white;
+}
+
+.footer .container .footer-upper .item p {
+    color: #969696;
+    line-height: 1.9;
+}
+
+.footer .container .footer-upper .item {
+    float: left;
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer .container .footer-upper .item ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer .container .footer-upper .item ul li {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ffffff0d;
+    padding-bottom: 10px;
+}
+
+.footer .container .footer-upper .item ul li.li-special {
+    border-bottom: none;
+}
+
+.footer .container .footer-upper .item ul li span {
+    color: #969696;
+    vertical-align: middle;
+}
+
+.footer .container .footer-upper .item ul li img {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.footer .container .footer-upper .item .contact-map {
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*END   OF FOOTER */
